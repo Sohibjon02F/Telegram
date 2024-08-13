@@ -5,6 +5,6 @@ class GrouPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(body: Center(child: Text("guruhlar"),),);
+    return Scaffold(body: Center(child: Text("guruhfgdlar"),),);
   }
 }
