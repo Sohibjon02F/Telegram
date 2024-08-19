@@ -11,12 +11,12 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return DefaultTabController(length: 3, child: Scaffold(appBar: AppBar(
       backgroundColor: Colors.blue,
-      title: Text("Telegram"),
+      title: Text("Telegram",style: TextStyle(color: Colors.white,fontWeight: FontWeight.w600),),
       bottom: TabBar(tabs: 
       [
-        Tab(icon: Icon(Icons.person),),
-                Tab(icon: Icon(Icons.group),),
-        Tab(icon: Icon(Icons.grade),),
+        Tab(icon: Icon(Icons.person,color: Colors.white,),),
+                Tab(icon: Icon(Icons.group,color: Colors.white,),),
+        Tab(icon: Icon(Icons.grade,color: Colors.white,),),
 
       ]),
     ),
